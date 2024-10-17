@@ -7,7 +7,14 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #92B6B1;
     opacity: 0.75;
-}   
+    background-image: url("../images/BG1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
 
 header{
     display: inline-flex;
@@ -27,23 +34,22 @@ h1 {
 }
 
 /* Dropdown Button gestalten */
-
 .dropbtn {
     background-color: #2C6E49;
-    color: #190B28;
+    color: white;
     height: 50px;
+    width: 160px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 /* Container der gebraucht wird um den Dropdown inhalt zu positionieren */
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
 /*  Inhalt des Dropdown (wird versteckt) */
-
 .dropdown-content {
     display: none;
     position: absolute;
