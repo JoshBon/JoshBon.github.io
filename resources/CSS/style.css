@@ -26,11 +26,14 @@ header{
     height: 100px;
 }
 
+#logo {
+    height: 80px;
+}
+
 h1 {
     color: #190B28;
     text-align: center;
     margin: 30px auto;
-
 }
 
 /* Dropdown Button gestalten */
@@ -80,9 +83,11 @@ h1 {
 }
 
 #headshot {
-    height: 100px;
-    width: 100px;
+    display: block;
+    height: 150px;
+    width: 150px;
     margin: 30px auto;
+    border-radius: 75px;
 }
 
 .main {
@@ -99,9 +104,9 @@ footer {
     width: 100%;
     color: white;
     background-color: #4464AD;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    height: 100px;
+    height: 8%;
     align-items: center;
 }
 
