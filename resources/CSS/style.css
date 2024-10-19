@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+.index {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #92B6B1;
     opacity: 0.75;
@@ -15,6 +15,17 @@ body {
     margin: 0;
 }
 
+.bjj {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #92B6B1;
+    opacity: 0.75;
+    background-image: url("../images/BJJ/SartoPhotography_DSC07211_web.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
 
 header{
     display: inline-flex;
@@ -24,6 +35,7 @@ header{
     color: white;
     background-color: #4464AD;
     height: 100px;
+
 }
 
 #logocont {
@@ -116,11 +128,17 @@ h1 {
 
 .main {
     width: fit-content;
+    max-width: 50%;
     height: fit-content;
     background-color: beige;
     margin: 30px auto;
     padding: 30px;
     text-align: left;
+
+}
+
+#helio {
+    float: right;
 }
 
 .main h2 {
@@ -149,6 +167,7 @@ footer {
     bottom: 0;
     height: 5%;
     align-items: center;
+
 }
 
 #logos {
