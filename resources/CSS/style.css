@@ -45,10 +45,18 @@ h1 {
     margin: 30px auto;
 }
 
+/*Container der den Button enthält*/
+.drpcontainer {
+    width: 33%;
+    text-align: center;
+}
+
 /* Dropdown Button gestalten */
 .dropbtn {
     background-color: #2C6E49;
     color: white;
+    font-size: 17px;
+    font-weight: bold;
     height: 50px;
     width: 160px;
     border-radius: 5px;
@@ -59,7 +67,6 @@ h1 {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 33%;
     text-align: center;
 }
 
@@ -68,14 +75,19 @@ h1 {
     display: none;
     position: absolute;
     background-color: #B2C9AB;
-    box-shadow: 0px 8px 16px 0px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0px 8px 16px 0px black;
     z-index: 1;
+    line-height: 3em;
+    text-align: left;
 }
 
 /* Links im dropdown */
 .dropdown-content a {
     color: #190B28;
     display: block;
+    text-decoration: none;
 }
 
 /* Farbe ändern bei hover über den Links */
