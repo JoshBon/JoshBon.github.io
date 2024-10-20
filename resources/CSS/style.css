@@ -48,7 +48,8 @@ header{
     width: 100%;
     color: white;
     background-color: #4463adaf;
-    height: 100px;
+    height: 8%;
+    min-height: fit-content;
 }
 
 
@@ -58,7 +59,7 @@ header{
 }
 
 #logo {
-    max-height: 80px;  
+    max-height: 80px;
 }
 
 #pagetitle {
@@ -182,6 +183,7 @@ footer {
     position: fixed;
     bottom: 0;
     height: 5%;
+    min-height: fit-content;
     align-items: center;
 
 }
