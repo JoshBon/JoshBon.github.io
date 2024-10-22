@@ -3,12 +3,9 @@
     padding: 0;
 }
 
-
-
 .index {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #92B6B1;
-    /*Opacity*/
     background-image: url("../images/BG1.JPG");
     background-size: cover;
     background-position: center;
@@ -20,7 +17,6 @@
 .bjj {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #92B6B1;
-    /*Opacity*/
     background-image: url("../images/BJJ/SartoPhotography_DSC07211_web.jpg");
     background-size: cover;
     background-position: center;
@@ -32,7 +28,6 @@
 .cooking {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #92B6B1;
-    /*Opacity*/
     background-image: url("../images/BG_Cooking.JPG");
     background-size: cover;
     background-position: center;
@@ -52,10 +47,8 @@ header{
     min-height: fit-content;
 }
 
-
 #logocont {
     width: 33%;
- 
 }
 
 #logo {
@@ -140,7 +133,6 @@ h1 {
     width: 180px;
     margin: 30px auto;
     border-radius: 90px;
-
 }
 
 .main {
@@ -194,7 +186,6 @@ footer {
     height: 5%;
     min-height: fit-content;
     align-items: center;
-
 }
 
 #logos {
@@ -215,4 +206,40 @@ footer {
 #email a{
     margin-right: 5px;
     color: white;
+}
+
+/*Media Query for 1080p screens*/
+@media  screen and (max-width: 1920px) and (max-height: 1080px){
+    
+    .index {
+        background-attachment: fixed;
+    }
+
+    .bjj {
+        background-attachment: fixed;
+    }
+    
+    .cooking {
+        background-attachment: fixed;
+    }
+
+    .dropbtn {
+        background-color: #385392;
+    }
+
+    .main {
+        width: fit-content;
+        min-width: 30%;
+        height: fit-content;
+    }
+
+}
+
+/*Media Query for Samsung Galaxy S22+*/
+@media screen and (max-width: 1080px) and (max-height: 2340px) and (orientation: portrait){
+
+    .index {
+        background-attachment: fixed;
+    }
+
 }
