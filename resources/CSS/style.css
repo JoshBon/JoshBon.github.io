@@ -136,7 +136,7 @@ h1 {
 }
 
 .main {
-    width: 50%;
+    width: fit-content;
     max-width: 50%;
     height: fit-content;
     background-color: rgba(245, 245, 220, 0.800);
@@ -237,6 +237,10 @@ footer {
 
 /*Media Query for Samsung Galaxy S22+*/
 @media screen and (max-width: 1080px) and (max-height: 2340px) and (orientation: portrait){
+
+    .header {
+        display: ;
+    }
 
     .index {
         background-attachment: fixed;
