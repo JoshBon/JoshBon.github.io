@@ -74,7 +74,7 @@ h1 {
 
 /* Dropdown Button gestalten */
 .dropbtn {
-    background-color: #2C6E49;
+    background-color: #385392;
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -124,7 +124,7 @@ h1 {
 
 /*Wechseln der Farbe des Dropdownbutton wenn inhalt entfaltet ist*/
 .dropdown:hover .dropbtn {
-    background-color: #245a3b;
+    background-color: #4465b3;
 }
 
 #headshot {
@@ -221,10 +221,6 @@ footer {
     
     .cooking {
         background-attachment: fixed;
-    }
-
-    .dropbtn {
-        background-color: #385392;
     }
 
     .main {
